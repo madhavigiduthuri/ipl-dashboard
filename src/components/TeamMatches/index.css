@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.team-matches-app-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to top, #1b1b1b, #a4261d);
+  background-size: cover;
+  padding: 30px;
+}
+
+.team-banner-image {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-match-heading {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.unord-team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 95%;
+  padding: 0px;
+}

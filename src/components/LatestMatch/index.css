@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.lastest-matches-app-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  background-color: #1e293b;
+  width: 95%;
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.lastest-match-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 35%;
+}
+
+.lastest-match-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.team-match-image {
+  width: 150px;
+  height: 150px;
+}
+
+.lastest-match-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 35%;
+}
+
+.heading {
+  font-size: 30px;
+}
+
+.datee {
+  font-size: 26px;
+}
+
+.static-1 {
+  font-size: 22px;
+}
+
+.static-2 {
+  font-size: 26px;
+}
